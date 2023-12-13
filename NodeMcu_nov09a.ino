@@ -7,6 +7,9 @@
   Kodens fuktion är att rotera två servo-motorer som stänger av ljusströmbrytaren i klassrummet. Motorerna roterar när man trycker på
   strömbrytaren på Arduino IoT Cloud hemsidan, eller i Arduio IoT Cloud appen. Kod och funktioner som har att göra med att koppla
   till WIFI är automatiskt genererade av Arduino IoT Cloud.
+
+  * Lägg märke till att i videon är ESPn kopplad till datorn. Datorn har inget med WIFI kopplingen att göra, utan jag hittade 
+    inte någon annan strömkälla, ESPn hade lika gärna kunnat kopplas till vilken USB port som helst.
   
 */
 #include "arduino_secrets.h" // hämta WIFI och device info från andra fliken

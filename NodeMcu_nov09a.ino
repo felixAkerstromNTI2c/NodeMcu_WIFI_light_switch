@@ -1,6 +1,7 @@
 #include "arduino_secrets.h"
 /*
   Felix Åkerström 2C
+  Färdigt datum: 2023-12-13
   Tillämpad programmering
   Trådlös strömbrytare
   Kodens fuktion är att rotera två servo-motorer som stänger av ljusströmbrytaren i klassrummet. Motorerna roterar när man trycker på

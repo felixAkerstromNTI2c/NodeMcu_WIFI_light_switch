@@ -1,4 +1,4 @@
-#include "arduino_secrets.h"
+
 /*
   Felix Åkerström 2C
   Färdigt datum: 2023-12-13
@@ -9,8 +9,8 @@
   till WIFI är automatiskt genererade av Arduino IoT Cloud.
   
 */
-
-#include "thingProperties.h"
+#include "arduino_secrets.h" // hämta WIFI och device info från andra fliken
+#include "thingProperties.h" // hämta mer info från tredje fliken
 #include <Servo.h>
 Servo myservo1;
 Servo myservo2;
